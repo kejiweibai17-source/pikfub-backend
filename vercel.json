@@ -1,0 +1,24 @@
+{
+  "rewrites": [
+    {
+      "source": "/store/:path*",
+      "destination": "https://REPLACE_WITH_RAILWAY_URL/store/:path*"
+    },
+    {
+      "source": "/admin/:path*",
+      "destination": "https://REPLACE_WITH_RAILWAY_URL/admin/:path*"
+    },
+    {
+      "source": "/auth/:path*",
+      "destination": "https://REPLACE_WITH_RAILWAY_URL/auth/:path*"
+    },
+    {
+      "source": "/uploads/:path*",
+      "destination": "https://REPLACE_WITH_RAILWAY_URL/uploads/:path*"
+    },
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
+  ]
+}
