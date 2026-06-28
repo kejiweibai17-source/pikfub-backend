@@ -22,7 +22,6 @@
     "test:unit": "TEST_TYPE=unit NODE_OPTIONS=--experimental-vm-modules jest --silent --runInBand --forceExit"
   },
   "dependencies": {
-    "@medusajs/admin": "^7.1.18",
     "@medusajs/admin-sdk": "2.13.1",
     "@medusajs/auth-google": "^2.13.5",
     "@medusajs/cli": "2.13.1",
@@ -35,7 +34,6 @@
     "@tinymce/tinymce-react": "^6.3.0",
     "axios": "^1.14.0",
     "cropperjs": "^2.1.1",
-    "medusa-react": "^9.0.18",
     "nodemailer": "^8.0.5",
     "react-cropper": "^2.3.3",
     "react-quill": "^2.0.0",
